@@ -4,289 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
-    <style>
-        header{
-    width: 1100px;
-    display: flex;
-    margin: auto;
-    margin-bottom: 100px;
-    font-family: Corbel;
-}
-main{
-    width: 1100px;
-    display: flex;
-    margin: auto;
-    font-family: corbel;
-    margin-bottom: 100px;
-}
-h1:first-child{
-    font-size: 64px;
-    color: #14931F;
-}
-h2{
-    font-size: 48px;
-    color: #14931F;
-}
-p{
-    font-size: 24px;
-}
-.head{
-    margin-left: 170px;
-    width: 500px;
-    text-align: center;
-}
-.info{
-    margin: auto;
-    width: 900px;
-    text-align: center;
-    color: #646F75;
-}
-.foot{
-    width: 470px;
-}
-.start{
-    background-color: #14931F;
-    border: 1px solid #14931F;
-    font-size: 24px;
-    color: white;
-    border-radius: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-decoration: none;
-}
-.tablica{
-    background-color: #DFDBF5;
-    margin: 20px;
-    padding: 30px;  
-    border-radius: 30px;
-    display: inline-flex;
-    text-align: start;
-    width: 160px;
-    height: 35px;
-}
-.tablicabot{
-    background-color: #DFDBF5;
-    margin: 20px;
-    padding: 30px;  
-    border-radius: 30px;
-    width: 160px;
-    display: inline-flex;
-    text-align: start;
-    height: 35px;
-}
-footer{
-    font-family: corbel;
-    background-color: #DFDBF5;
-    height: 1000px;
-}
-.price{
-    width: 120px;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.pricelist{
-    display: inline-block;
-    width: 500px;
-    height: 530px;
-    text-align: center;
-    background-color: white;
-    border-radius: 50px;
-    margin-left: 70px;
-}
-.pl{
-    width: 1200px;
-    margin: auto;
-    display: flex;
-}
-ol{
-    font-size: 18px;
-    color: #646F75;
-    text-align: left;
-    content: '✔';
-}
-li{
-    padding: 10px;
-}
-.list{
-    width: 250px;
-    display: inline-table;
-}
-.pricenumber{
-    color: #646F75;
-    font-size: 48px;
-    margin: -15px;
-}
-.buy{
-    border: 1px solid #646F75;
-    background-color: white;
-    color: #646F75;
-    font-size: 24px;
-    border-radius: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.buyfoot{
-    width: 50px;
-    display: inline-block;
-    margin-right: 70px;
-}
-#midlist li{
-    width: 230px;
-    color: white;
-}
-#midpricelist{
-    background-color: #14931F;
-}
-#midprice{
-    color: white;
-}
-#serv{
-    color: white;
-}
-#buyfootfix{
-    margin-top: 75px;
-}
-.buy:hover{
-    background-color: green;
-    color: white;
-    border: none;
-}
-.copyright{
-    background-color: #14931F;
-    color: white;
-    font-size: 18px;
-    height: 150px;
-}
-small{
-    width: 200px;
-    display: flex;
-    margin: auto;
-    margin-top: 100px;
-    opacity: .9;
-    padding: 60px;
-}
-button{
-    font-family: corbel;
-}
-    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="../DZ_10/DZ_10.3.html"><img src="../DZ_10/images/logo.png" alt="Логотип"></a>
-        </nav>
-        <section class="head">
-            <div>
-                <h1>Отличное зрение для всех!</h1>
+  <header>
+    <nav>
+      <a href="../DZ_10/DZ_10.3.html">
+        <img
+          src="../DZ_10/images/logo.png"
+          alt="Логотип"
+        >
+      </a>
+    </nav>
+    
+    <section class="head">
+      <div>
+        <h1>Отличное зрение для всех!</h1>
+      </div>
+
+      <div class="foot">
+        <p>Мы поможем вам исправить и улучшить ваше зрение в короткий срок</p><br>
+      </div>
+
+      <div class="foot">
+        <button class="start">
+          <a
+            href="https://itvdn.com/ua/video/html-css-starter/semantic-html"
+            class="start"
+          >
+            Начать
+          </a>
+        </button>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="info">
+      <div>
+        <h2>Услуги</h2>
+      </div>
+
+      <div class="table">
+        <div class="tablica">Проверка зрения</div>
+        <div class="tablica">Детское отделение</div>
+        <div class="tablica">Лазерная коррекция зрения</div>
+      </div>
+
+      <div class="table">
+        <div class="tablica">Лечение кератоконуса</div>
+        <div class="tablica">Лазерное лечение заболеваний глаза</div>
+        <div class="tablica">Лечение катаракты</div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+      <section>
+        <div class="price">
+          <h2>Цены</h2>
+        </div>
+      </section>
+
+      <section class="pl">
+          <div class="pricelist">
+              <h2>Диагностика</h2>
+
+              <div class="list">
+                <ol>
+                  <li>Комплексный осморт</li>
+                  <li>Скрининг поражения глаз при диабете</li>
+                  <li>Комплексный осморт с дополнительным сервисом</li>
+                </ol>
+              </div>
+
+              <div class="buyfoot" id="buyfootfix">
+                <p class="pricenumber">75$</p>
+              </div>
+
+              <div class="buyfoot">
+                <button class="buy">Купить</button>
+              </div>
+          </div>
+
+          <div class="pricelist" id="midpricelist">
+              <h2 id="serv">Услуги комфорта</h2>
+
+              <div class="list"  id="midlist">
+                <ol>
+                  <li>Дневной стационар</li>
+                  <li>оказание медицинской помощи</li>
+                  <li>присмотр врача днем</li>
+                  <li>терапия тревожных состояний</li>
+                </ol>
+              </div>
+
+              <div class="buyfoot">
+                <p class="pricenumber"  id="midprice">100$</p>
+              </div>
+
+              <div class="buyfoot">
+                <button class="buy">Купить</button>
+              </div>
+          </div>
+
+          <div class="pricelist">
+            <h2>Аппаратное лечение</h2>
+
+            <div class="list">
+              <ol>
+                <li>Пакет "Амблиопия"</li>
+                <li>Пакет "Косоглазие"</li>
+                <li>Пакет "Резервы аккомодации"</li>
+                <li>"Пакет "Косоглазие + амблиопия"</li>
+              </ol>
             </div>
-            <div class="foot">
-                <p>Мы поможем вам исправить и улучшить ваше зрение в короткий срок</p><br>
+
+            <div class="buyfoot">
+              <p class="pricenumber">30$</p>
             </div>
-            <div class="foot">
-                <button class="start">
-                    <a href="https://itvdn.com/ua/video/html-css-starter/semantic-html" class="start">Начать</a>
-                </button>
+
+            <div class="buyfoot">
+              <button class="buy">Купить</button>
             </div>
-        </section>
-    </header>
-    <main>
-        <section class="info">
-            <div>
-                <h2>Услуги</h2>
-            </div>
-            <div class="table">
-                <div class="tablica">
-                    Проверка зрения
-                </div>
-                <div class="tablica">
-                    Детское отделение
-                </div>
-                <div class="tablica">
-                    Лазерная коррекция зрения
-                </div>
-            </div>
-            <section>
-                <div class="tablicabot">
-                    Лечение кератоконуса
-                </div>
-                <div class="tablicabot">
-                    Лазерное лечение заболеваний глаза
-                </div>
-                <div class="tablicabot">
-                    Лечение катаракты
-                </div>
-            </section>
-        </section>
-    </main>
-    <footer>
-        <section>
-            <div class="price">
-                <h2>Цены</h2>
-            </div>
-        </section>
-        <section class="pl">
-            <div class="pricelist">
-                <h2>Диагностика</h2>
-                <div class="list">
-                    <ol>
-                        <li>Комплексный осморт</li>
-                        <li>Скрининг поражения глаз при диабете</li>
-                        <li>Комплексный осморт с дополнительным сервисом</li>
-                    </ol>
-                </div>
-                <div class="buyfoot" id="buyfootfix">
-                    <p class="pricenumber">75$</p>
-                </div>
-                <div class="buyfoot">
-                    <button class="buy">Купить</button>
-                </div>
-            </div>
-            <div class="pricelist" id="midpricelist">
-                <h2 id="serv">Услуги комфорта</h2>
-                <div class="list"  id="midlist">
-                    <ol>
-                        <li>Дневной стационар</li>
-                        <li>оказание медицинской помощи</li>
-                        <li>присмотр врача днем</li>
-                        <li>терапия тревожных состояний</li>
-                    </ol>
-                </div>
-                <div class="buyfoot">
-                    <p class="pricenumber"  id="midprice">100$</p>
-                </div>
-                <div class="buyfoot">
-                    <button class="buy">Купить</button>
-                </div>
-            </div>
-            <div class="pricelist">
-                <h2>Аппаратное лечение</h2>
-                <div class="list">
-                    <ol>
-                        <li>Пакет "Амблиопия"</li>
-                        <li>Пакет "Косоглазие"</li>
-                        <li>Пакет "Резервы аккомодации"</li>
-                        <li>"Пакет "Косоглазие + амблиопия"</li>
-                    </ol>
-                </div>
-                <div class="buyfoot">
-                    <p class="pricenumber">30$</p>
-                </div>
-                <div class="buyfoot">
-                    <button class="buy">Купить</button>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="copyright">
-                <small>© Все права защищены</small>
-            </div>
-        </section>
-    </footer>
+          </div>
+      </section>
+
+      <section>
+        <div class="copyright">
+          <small>© Все права защищены</small>
+        </div>  
+      </section>
+  </footer>
 </body>
 </html>

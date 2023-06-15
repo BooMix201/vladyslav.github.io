@@ -1,0 +1,186 @@
+header {
+  width: 1100px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 100px;
+  font-family: Corbel;
+}
+
+main {
+  width: 1100px;
+  display: flex;
+  margin: auto;
+  font-family: corbel;
+  margin-bottom: 100px;
+}
+
+h1:first-child{
+  font-size: 64px;
+  color: #14931F;
+}
+
+h2 {
+  font-size: 48px;
+  color: #14931F;
+}
+
+p {
+  font-size: 24px;
+}
+
+.head {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
+
+.info {
+  margin: auto;
+  width: 900px;
+  text-align: center;
+  color: #646F75;
+}
+
+.foot {
+  width: 470px;
+}
+
+.start {
+  background-color: #14931F;
+  border: 1px solid #14931F;
+  font-size: 24px;
+  color: white;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.tablica{
+  background-color: #DFDBF5;
+  margin: 20px;
+  padding: 30px;  
+  border-radius: 30px;
+  display: inline-flex;
+  text-align: start;
+  width: 160px;
+  height: 35px;
+}
+
+footer {
+  font-family: corbel;
+  background-color: #DFDBF5;
+  height: 1000px;
+}
+
+.price {
+  width: 120px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pricelist {
+  display: inline-block;
+  width: 500px;
+  height: 530px;
+  text-align: center;
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 70px;
+}
+
+.pl {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+ol {
+  font-size: 18px;
+  color: #646F75;
+  text-align: left;
+  content: '✔';
+}
+
+li {
+  padding: 10px;
+}
+
+.list {
+  width: 250px;
+  display: inline-table;
+}
+
+.pricenumber {
+  color: #646F75;
+  font-size: 48px;
+  margin: -15px;
+}
+
+.buy {
+  border: 1px solid #646F75;
+  background-color: white;
+  color: #646F75;
+  font-size: 24px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.buyfoot {
+  width: 50px;
+  display: inline-block;
+  margin-right: 70px;
+}
+
+#midlist li {
+  width: 230px;
+  color: white;
+}
+
+#midpricelist {
+  background-color: #14931F;
+}
+
+#midprice {
+  color: white;
+}
+
+#serv {
+  color: white;
+}
+
+#buyfootfix {
+  margin-top: 75px;
+}
+
+.buy:hover {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.copyright {
+  background-color: #14931F;
+  color: white;
+  font-size: 18px;
+  height: 150px;
+}
+
+small {
+  width: 200px;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  opacity: .9;
+  padding: 60px;
+}
+
+button {
+  font-family: corbel;
+}
